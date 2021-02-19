@@ -1,0 +1,6 @@
+framework module Pods_InstagramFireStore {
+  umbrella header "Pods-InstagramFireStore-umbrella.h"
+
+  export *
+  module * { export * }
+}
