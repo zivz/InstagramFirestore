@@ -90,6 +90,7 @@ class NotificationCell: UITableViewCell {
         infoLabel.anchor(right: followButton.leftAnchor, paddingRight: 4)
         
         followButton.isHidden = true
+        postImageView.isHidden = true
     }
     
     required init?(coder: NSCoder) {
@@ -122,8 +123,8 @@ class NotificationCell: UITableViewCell {
         
         infoLabel.attributedText = viewModel.notificationMessage
         
-        followButton.isHidden = viewModel.shouldHidePostImage
-        postImageView.isHidden = !viewModel.shouldHidePostImage
+        followButton.isHidden = !viewModel.shouldHidePostImage
+        postImageView.isHidden = viewModel.shouldHidePostImage
         
         followButton.setTitle(viewModel.followButtonText, for: .normal)
         followButton.backgroundColor = viewModel.followButtonBackgroundColor
