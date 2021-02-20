@@ -20,4 +20,7 @@ The application was built without the use of storyboards, fully programmatically
 -   Logging in and logging out
 -   Reset Password Capability 
 
+## Screenshots 
+
+ ![Sign In/Sign Up/Forgot My Password Screen](https://user-images.githubusercontent.com/6517225/108602816-d892ca80-73ac-11eb-93a0-c239d85d10db.png)
 
